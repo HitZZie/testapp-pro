@@ -1,0 +1,72 @@
+/* Colores fijos para las opciones */
+.resp-a { color: #e53935; font-weight: bold; }   /* Rojo */
+.resp-b { color: #1e88e5; font-weight: bold; }   /* Azul */
+.resp-c { color: #43a047; font-weight: bold; }   /* Verde */
+.resp-d { color: #fb8c00; font-weight: bold; }   /* Naranja */
+
+li {
+  margin-bottom: 0.4em;
+  border-radius: 6px;
+  padding: 0.3em 0.7em;
+  transition: background 0.2s;
+}
+
+button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6em 1.2em;
+  margin: 0.5em 0.5em 0.5em 0;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #1565c0;
+}
+select, input[type="text"] {
+  padding: 0.4em;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  margin: 0.3em 0;
+}
+.App {
+  max-width: 900px;
+  min-height:600px;
+  margin: 3rem auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px #0001;
+  padding: 2rem;
+}
+body {
+  background: url('C:\Users\javis\Desktop\Proyecto de Tests\personal-testing-app\public\imagen.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px 0;
+}
+
+@media (max-width: 768px) {
+  button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
